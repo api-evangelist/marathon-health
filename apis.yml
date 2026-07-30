@@ -1,8 +1,24 @@
 aid: marathon-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marathon-health.png
 name: Marathon Health
-description: 'Marathon Health is a company surfaced as a portfolio company of nea and added to the API
-  Evangelist network as a stub for enrichment. Sector: digital-health. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Marathon Health is a healthcare services company delivering advanced primary care and
+  occupational health to employers, labor unions, health plans, and brokers/consultants. It operates
+  onsite, nearsite, and network health centers plus virtual primary care, spanning preventive care,
+  mental health, musculoskeletal treatment, lifestyle and medication management, value-driven referrals,
+  and population health management to improve employee health outcomes while lowering total healthcare
+  cost. Backed by NEA. As of this enrichment pass Marathon Health publishes no public developer API,
+  developer portal, or event/webhook surface.'
 url: https://raw.githubusercontent.com/api-evangelist/marathon-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Digital Health
+- Primary Care
+- Occupational Health
+- Employer Health
+- Population Health
+- Telehealth
+- Healthcare Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +46,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.marathon-health.com
+  url: https://marathon.health
+- type: DomainSecurity
+  url: security/marathon-health-domain-security.yml
+- type: Blog
+  url: https://marathon.health/resources/
+- type: PrivacyPolicy
+  url: https://marathon.health/privacy-policy-center
+- type: TermsOfService
+  url: https://marathon.health/privacy-policy-center
+- type: Support
+  url: https://marathon.health/contact
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
