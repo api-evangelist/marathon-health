@@ -1,0 +1,28 @@
+{
+  "repo": "marathon-health",
+  "feeds": [
+    {
+      "source": "https://marathon.health/resources/blog",
+      "feed_url": "https://marathon.health/resources/blog/rss.xml",
+      "title": "",
+      "saved": 1,
+      "method": "discovered"
+    },
+    {
+      "source": "https://marathon.health/resources/blog/rss.xml",
+      "feed_url": "https://marathon.health/resources/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://marathon.health/resources/",
+      "feed_url": "https://marathon.health/resources/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 1,
+  "fetched": "2026-10-10T13:15:00Z"
+}
